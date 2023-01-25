@@ -2,9 +2,11 @@ package CodeClanAndDragons.Player.PlayerTypes;
 
 import CodeClanAndDragons.Armoury.Sword;
 import CodeClanAndDragons.Armoury.Weapon;
+import CodeClanAndDragons.Enemy.Enemy;
+import CodeClanAndDragons.Mechanics.IFight;
 import CodeClanAndDragons.Player.Player;
 
-public abstract class Fighter extends Player {
+public abstract class Fighter extends Player  {
 
     Weapon weapon;
 
@@ -19,4 +21,5 @@ public abstract class Fighter extends Player {
     public Weapon getWeapon() {
         return this.weapon;
     }
+
 }

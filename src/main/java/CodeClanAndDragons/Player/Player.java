@@ -22,4 +22,8 @@ public abstract class Player {
     public void reduceHealthPoints(int healthPoints) {
         this.healthPoints -= healthPoints;
     }
+
+    public void increaseHealthPoints(int healthPoints){
+        this.healthPoints += healthPoints;
+    }
 }

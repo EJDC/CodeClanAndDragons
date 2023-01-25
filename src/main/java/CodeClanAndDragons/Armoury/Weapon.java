@@ -3,7 +3,7 @@ package CodeClanAndDragons.Armoury;
 import CodeClanAndDragons.Enemy.Enemy;
 import CodeClanAndDragons.Mechanics.IFight;
 
-public class Weapon implements IFight {
+public class Weapon {
 
     private int damage;
 
@@ -22,7 +22,4 @@ public class Weapon implements IFight {
         return this.name;
     }
 
-    public int attack() {
-        return this.damage += 0;
-    }
 }

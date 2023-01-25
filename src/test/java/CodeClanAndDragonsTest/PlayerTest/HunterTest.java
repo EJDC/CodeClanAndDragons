@@ -2,6 +2,7 @@ package CodeClanAndDragonsTest.PlayerTest;
 
 import CodeClanAndDragons.Armoury.Club;
 import CodeClanAndDragons.Armoury.Sword;
+import CodeClanAndDragons.Enemy.EnemyTypes.Troll;
 import CodeClanAndDragons.Player.PlayerTypes.Hunter;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,6 +13,7 @@ public class HunterTest {
     Sword sword;
     Club club;
     Hunter hunter;
+    Troll troll;
 
 
     @Before
@@ -19,6 +21,7 @@ public class HunterTest {
         sword = new Sword(25, "Unknown");
         hunter = new Hunter("Sir Clegain", 140, sword);
         club = new Club(15, "club club");
+        troll = new Troll("Glark", 125, club);
     }
 
     @Test
@@ -41,4 +44,11 @@ public class HunterTest {
         hunter.changeWeapon(club);
         assertEquals(club, hunter.getWeapon());
     }
+
+    @Test
+    public void hunterCanAttackTroll(){
+        hunter.attack(troll);
+        assertEquals(100, troll.getHealthPoints());
+    }
+
 }
