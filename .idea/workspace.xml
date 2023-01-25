@@ -4,31 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25bbc5cc-7309-4e63-a93d-5fb4d1ca8f9a" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Armoury/Spell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Armoury/Sumonee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/IHeal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/ISummon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/ClericTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/WizardTest.java" afterDir="false" />
+    <list default="true" id="25bbc5cc-7309-4e63-a93d-5fb4d1ca8f9a" name="Changes" comment="MVP complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Dungeon/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Dungeon/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Armoury/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Armoury/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Enemy/EnemyTypes/Ogre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Enemy/EnemyTypes/Ogre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Enemy/EnemyTypes/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Enemy/EnemyTypes/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/IFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/IFight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/ISpell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Mechanics/ISpell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Cleric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Rogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Rogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CodeClanAndDragons/Player/PlayerTypes/Wizard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/EnemyTest/TrollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/EnemyTest/TrollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/HunterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/HunterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/KnightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/KnightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/RogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeClanAndDragonsTest/PlayerTest/RogueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -79,7 +59,7 @@
       <recent name="CodeClanAndDragons.Player.PlayerTypes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RoomTest.canGetRandomExits">
     <configuration name="All in CodeClanAndDragons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanAndDragons" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,17 +68,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrollTest.trollCanAttackKnight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoomTest.canGenerateRandomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanAndDragons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeClanAndDragonsTest.EnemyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeClanAndDragonsTest.EnemyTest" />
-      <option name="MAIN_CLASS_NAME" value="CodeClanAndDragonsTest.EnemyTest.TrollTest" />
-      <option name="METHOD_NAME" value="trollCanAttackKnight" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canGenerateRandomNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoomTest.canGetRandomExits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanAndDragons" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="METHOD_NAME" value="canGetRandomExits" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,29 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WizardTest.hasSpellFire" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanAndDragons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeClanAndDragonsTest.PlayerTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeClanAndDragonsTest.PlayerTest" />
-      <option name="MAIN_CLASS_NAME" value="CodeClanAndDragonsTest.PlayerTest.WizardTest" />
-      <option name="METHOD_NAME" value="hasSpellFire" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest.canGetRandomExits" />
+        <item itemvalue="JUnit.RoomTest.canGenerateRandomNumber" />
         <item itemvalue="JUnit.All in CodeClanAndDragons" />
         <item itemvalue="JUnit.WizardTest.canDealDamageToTrollWithSumoneeDragon" />
         <item itemvalue="JUnit.WizardTest.canDealDamageToTrollWithFireSpell" />
-        <item itemvalue="JUnit.WizardTest.hasSpellFire" />
-        <item itemvalue="JUnit.TrollTest.trollCanAttackKnight" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674653110403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MVP complete">
+      <created>1674659902124</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674659902124</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +169,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="MVP complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="MVP complete" />
   </component>
 </project>
